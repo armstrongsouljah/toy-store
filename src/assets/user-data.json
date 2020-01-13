@@ -1,0 +1,37 @@
+[
+    {
+        "username":"soultech",
+        "email":"soultechde@gmail.com",
+        "password":"sample1234"
+    },
+    {
+        "username":"tiffany",
+        "email":"tiffany@gmail.com",
+        "password":"sample1234"
+    },
+    {
+        "username":"joel",
+        "email":"joel@gmail.com",
+        "password":"sample1234"
+    },
+    {
+        "username":"henry",
+        "email":"henry@gmail.com",
+        "password":"sample1234"
+    },
+    {
+        "username":"joy",
+        "email":"sojoy@gmail.com",
+        "password":"sample1234"
+    },
+    {
+        "username":"danny",
+        "email":"dannyde@gmail.com",
+        "password":"sample1234"
+    },
+    {
+        "username":"simon",
+        "email":"speter@gmail.com",
+        "password":"sample1234"
+    }
+]
