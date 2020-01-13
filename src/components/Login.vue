@@ -1,20 +1,18 @@
 <template>
     <div class="container">
         <Navbar/>
-        <img src="../assets/banner.jpg"/>
+        <h1>Toystore - Login</h1>
+        <div class="form-card">
+            
+        </div>
     </div>
 </template>
 <script>
 import Navbar from './Navigation';
 export default {
-    name: 'LandingPage',
+    name:'LoginPage',
     components:{
-        Navbar
+      Navbar
     }
 }
 </script>
-<style scoped>
-  img{
-      width:100vw;
-  }
-</style>
