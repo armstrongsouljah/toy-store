@@ -1,18 +1,13 @@
 <template>
  <div>
-   <Navbar/>
-   <LandingPage/>
+   <router-view></router-view>
  </div>
 </template>
 
 <script>
-import LandingPage from './components/Welcome';
-import Navbar from './components/Navigation';
+// import LandingPage from './components/Welcome';
+// import Navbar from './components/Navigation';
 export default {
   name: 'app',
-  components: {
-    LandingPage,
-    Navbar
-  }
 }
 </script>
