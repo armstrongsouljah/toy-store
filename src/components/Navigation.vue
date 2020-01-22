@@ -5,14 +5,28 @@
                 <li class="menu-item"><a href="#">Soultech Store</a></li>
                 <li class="menu-item"><a href="#">Home</a></li>
                 <li class="menu-item"><a href="#">New-Arrivals</a></li>
-                <li class="menu-item"><a href="#">Account</a></li>
+                <li class="menu-item dropdown">
+                    <a href="#">Account</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#" @click="launchLoginModal">Login</a></li>
+                        <li> <a href="#" @click="launchSignupModal">Register</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </div>
 </template>
 <script>
 export default {
-    name: 'Navbar'
+    name: 'Navbar',
+    methods:{
+        launchLoginModal () {
+          alert('Login');
+        },
+        launchSignupModal () {
+           alert('Register');
+        }
+    }
 }
 </script>
 <style scoped>
@@ -41,5 +55,16 @@ a:hover{
 }
 .menu-item{
     margin-right: 9px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    display:flex;
+    flex-flow: column;
+    min-height: 7vh;
+    padding: 5px;
+    background: #f2f2;
 }
 </style>
